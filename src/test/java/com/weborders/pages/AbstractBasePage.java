@@ -1,6 +1,7 @@
 package com.weborders.pages;
 
 
+import com.weborders.test.LoginTest;
 import com.weborders.utilities.Driver;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -9,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import static org.testng.Assert.*;
 
 /**
  * it meant to be extended

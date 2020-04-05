@@ -13,6 +13,7 @@ import org.testng.annotations.AfterMethod;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeTest;
+import static org.testng.Assert.*;
 
 import javax.security.auth.login.Configuration;
 import java.io.IOException;
@@ -67,6 +68,6 @@ public abstract class AbstractBaseTest {
         BrowserUtilities.wait(3);
         Driver.closeDriver();
     }
-
+    
 }
 
